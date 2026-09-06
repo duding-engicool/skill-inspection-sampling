@@ -1,0 +1,12 @@
+{
+  "name": "plan_strat",
+  "type": "stratified",
+  "params": {
+    "strata_field": "产品类别",
+    "sample_size": 6,
+    "allocation": "proportional"
+  },
+  "description": "",
+  "created_at": "2026-09-02 19:08:12",
+  "updated_at": "2026-09-02 19:08:12"
+}

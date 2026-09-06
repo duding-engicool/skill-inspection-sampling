@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "updated_at": "2026-09-02 19:09:57",
+  "schemes": {
+    "plan_simple": {
+      "name": "plan_simple",
+      "type": "simple",
+      "params": {
+        "sample_size": 5,
+        "sample_rate": 0.2
+      },
+      "description": "",
+      "created_at": "2026-09-02 19:07:52",
+      "updated_at": "2026-09-02 19:08:23"
+    },
+    "plan_strat": {
+      "name": "plan_strat",
+      "type": "stratified",
+      "params": {
+        "strata_field": "产品类别",
+        "sample_size": 6,
+        "allocation": "proportional"
+      },
+      "description": "",
+      "created_at": "2026-09-02 19:08:12",
+      "updated_at": "2026-09-02 19:08:12"
+    },
+    "plan_sys": {
+      "name": "plan_sys",
+      "type": "systematic",
+      "params": {
+        "interval": 3
+      },
+      "description": "",
+      "created_at": "2026-09-02 19:08:14",
+      "updated_at": "2026-09-02 19:08:14"
+    },
+    "bad3": {
+      "name": "bad3",
+      "type": "simple",
+      "params": {
+        "sample_size": 5
+      },
+      "description": "",
+      "created_at": "2026-09-02 19:09:54",
+      "updated_at": "2026-09-02 19:09:54"
+    }
+  }
+}

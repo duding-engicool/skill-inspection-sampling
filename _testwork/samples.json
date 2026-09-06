@@ -1,0 +1,59 @@
+{
+  "scheme_name": "plan_strat",
+  "scheme_type": "stratified",
+  "sampling_time": "2026-09-02T19:09:13.966476",
+  "data_summary": {
+    "total_records": 10,
+    "fields": [
+      "产品编号",
+      "产品类别",
+      "批次",
+      "尺寸"
+    ]
+  },
+  "sampling_params": {
+    "strata_field": "产品类别",
+    "sample_size": 6,
+    "allocation": "proportional"
+  },
+  "samples": [
+    {
+      "index": 0,
+      "original_index": 0,
+      "_stratum": "A",
+      "产品编号": "P001",
+      "产品类别": "A",
+      "批次": "B1",
+      "尺寸": 10.1
+    },
+    {
+      "index": 1,
+      "original_index": 8,
+      "_stratum": "A",
+      "产品编号": "P009",
+      "产品类别": "A",
+      "批次": "B3",
+      "尺寸": 9.8
+    },
+    {
+      "index": 2,
+      "original_index": 2,
+      "_stratum": "B",
+      "产品编号": "P003",
+      "产品类别": "B",
+      "批次": "B1",
+      "尺寸": 10.0
+    },
+    {
+      "index": 3,
+      "original_index": 4,
+      "_stratum": "C",
+      "产品编号": "P005",
+      "产品类别": "C",
+      "批次": "B2",
+      "尺寸": 9.9
+    }
+  ],
+  "sample_count": 4,
+  "sampling_rule": "按'产品类别'分层，proportional分配，共抽取4条"
+}

@@ -1,0 +1,27 @@
+{
+  "record_id": "REC2026090219100030",
+  "action": "delete",
+  "scheme_name": "plan_clus",
+  "scheme_type": "cluster",
+  "sampling_time": "2026-09-02 19:10:00",
+  "created_at": "2026-09-02T19:10:00.086050",
+  "operator": "scheme_manager",
+  "scheme_params": {
+    "cluster_field": "批次",
+    "cluster_rate": 0.5
+  },
+  "data_summary": {
+    "scheme": "整群抽样（整群字段 批次，抽群比例 0.5）",
+    "source": "删除方案「plan_clus」",
+    "note": "本记录由 scheme_manager.py 在方案变更时自动生成；实际抽样结果记录由 sampler.py --record 生成，落在本目录下。"
+  },
+  "sample_indexes": [],
+  "status": "scheme_operation",
+  "log": [
+    {
+      "time": "2026-09-02 19:10:00",
+      "action": "delete",
+      "detail": "删除方案「plan_clus」"
+    }
+  ]
+}
